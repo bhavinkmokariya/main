@@ -1,6 +1,4 @@
-streamlit==1.18.0
-transformers==4.30.0
-wikipedia-api==0.5.4
-requests==2.28.1
-torch==1.13.1  # Ensure compatibility with your environment
-ffmpeg-python==0.2.0  # For FFmpeg subprocess handling (optional)
+streamlit
+wikipedia-api
+huggingface-hub
+torch
