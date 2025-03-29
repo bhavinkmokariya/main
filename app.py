@@ -25,7 +25,7 @@ def generate_images(prompt):
     image_data_list = []
     try:
         for i in range(4):  # Generate 4 images
-            image_data = client.text_to_image(prompt, model="runwayml/stable-diffusion-v1-5")
+            image_data = client.text_to_image(prompt, model="OFA-Sys/small-stable-diffusion-v0")
             image_data_list.append(io.BytesIO(image_data))  # Store image data in memory
     except Exception as e:
         st.error(f"Error generating images: {str(e)}")
