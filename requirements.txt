@@ -1,4 +1,4 @@
 streamlit
-wikipedia-api
+wikipedia
 huggingface-hub
 torch
